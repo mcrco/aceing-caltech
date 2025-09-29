@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+  <head>
+    <title>ACEing Caltech: Resources</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/resources.css') }}" />
+  </head>
+  <body>
+    <div class = "header">
+    <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver" class="logo"/></a>
+    <h1 class="main_title"> ACEing Caltech </h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/info">Info</a>
+      <a href="/resources">Resources</a>
+      <a href="/faq">FAQ</a>
+    </nav>
+  </div>
+    <div class="body-container">
+      <div class="right">
+        <h1 class = "spef"> <span onclick="toggleModule(this);" data-link="introduction" class="clickable"> Guides </span></h1>
+        <hr style="border: 1px solid #E8E8E8;margin: 10px auto 15px auto;" />
+
+        <h2> Starting a Program</h2>
+        <ul>
+          <li onclick="toggleModule(this);" data-link="where-to-begin">Where to Begin</li>
+          <li onclick="toggleModule(this);" data-link="choosing-location">Choosing a Location</li>
+        </ul>
+
+        <h2> Advertising Your Program</h2>
+        <ul>
+          <li onclick="toggleModule(this);" data-link="where-to-reach">Where to Reach Out</li>
+          <li onclick="toggleModule(this);" data-link="recruitment">Volunteer Recruitment</li>
+        </ul>
+
+        <h2> Volunteer Management</h2>
+        <ul>
+          <li onclick="toggleModule(this);" data-link="training">Volunteer Training</li>
+          <li onclick="toggleModule(this);" data-link="tips-volunteers">Tips for Volunteers</li>
+        </ul>
+
+        <h2> Running a Program </h2>
+        <ul>
+          <li onclick="toggleModule(this);" data-link="manage-structure">Management Structure</li>
+          <li onclick="toggleModule(this);" data-link="parent-interaction">Parent Interaction</li>
+        </ul>
+      </div>
+
+      <div class="left">
+        <div class="module" id="introduction">
+          <h1>Resources for Program Development</h1>
+          <p>
+              Starting a new program is difficult, especially if you don't know where
+              to begin or what timeline to follow. Here, we've compiled some resources
+              to help you along your ACEing journey. Please note that these are
+              not officially sanctioned resources from ACEing Autism, but just
+              some tips from our own experiences!
+          </p>
+        </div>
+
+        <div class="module" id="where-to-begin">
+          <h1>Where to Begin?</h1>
+          <p>
+            If you're here, you're interested in starting your own ACEing Autism branch!
+            Hopefully, you've already been registered as a volunteer and have
+            volunteered multiple times before with a different clinic. If not, we
+            <b> strongly </b> recommend that you do so, so that you can better
+            understand the expectations and demands of a program. <br>
+            The ACEing Autism official website provides a
+            <a href = "https://aceingautism.org/how-to-start-a-program/">nifty timeline graphic</a>
+            that shows you how the usual process of getting a program started works.
+            While we don't know how the selection process for new Program Managers
+            works, Jen (the Pasadena branch founder) contacted ACEing Autism about
+            starting our first program in May 2022 back in October 2021, so around
+            the recommended 6 months before program start date as shown in the timeline.
+          </p>
+        </div>
+
+        <div class="module" id="choosing-location">
+          <h1>Choosing a Location</h1>
+          <p>
+            Even before your program manager phone interview is scheduled, you should
+            consider where you want to host the program. For our clinic, the tennis courts
+            at Caltech were an obvious choice, as they were close to campus with
+            amenities like parking and bathrooms nearby. If you are affiliated
+            with a school or university, evaluate how supportive the athletic
+            administration would be regarding hosting the clinic on the school's
+            facilities. If you are affiliated with a tennis club, maybe inquire
+            if they would offer discounted rates for a non-profit program. If
+            you are an individual who wants to contribute to the community, look
+            into public tennis court facilities and whether they can be reserved.
+            Location is a big factor in having a successful program; without courts,
+            the program won't happen. ACEing Caltech has been lucky to have the
+            support of both Caltech Athletics and the Caltech administration in
+            acquiring court time and other resources for our clinics.
+          </p>
+        </div>
+
+        <div class="module" id="where-to-reach">
+          <h1>Where to Reach Out</h1>
+          <p>
+            Congrats! You've been approved as a Program Manager and have secured
+            court time for your programs' dates. Now, all you need are participants
+            to attend. At this point, ACEing Autism will offer their own resources
+            in helping you navigate the program planning timeline. However, there
+            are programs all over the country and you know your community best.
+            The most common way our program was advertised to our participants was
+            through word-of-mouth. If you have a personal connection to the Autism
+            community in your neighborhood, you can let people know personally
+            about the new program. Additionally, posting flyers in communal spaces,
+            sending emails to local public schools with special education programs or
+            private schools that specialize in additional support services for
+            children with Autism, are all good ways to let people know about the
+            program.
+          </p>
+        </div>
+
+        <div class="module" id="recruitment">
+          <h1>Volunteer Recruitment</h1>
+          <p>
+            For the ACEing Autism - Pasadena program, we like to begin volunteer
+            recruitment <b>before</b> we open registration in order to make sure
+            we have enough resources to support all the participants who sign up.
+            Volunteer recruitment can be tough, especially if your program is not
+            connected to an academic institution. Even though our program is
+            supported by Caltech and run by Caltech students/alums, we still placed
+            a strong emphasis on recruitment outside of Caltech. </p>
+            <ol>
+              <li class="text"> Reach out to high schools, some of which may require community service hours. </li>
+              <li class="text"> Find volunteer organizations on campus that you can advertise through via newsletters, etc. </li>
+              <li class="text"> Use external websites, such as VolunteerMatch, so local community members can volunteer. </li>
+            </ol>
+            <p>
+            ACEing Autism provides background checks for all volunteers and recommends
+            about 2 volunteers per participant in each tennis clinic. The amount
+            of volunteers you recruit is dependent on the support level of your
+            participants, the reliability of your volunteers, etc. We recommend
+            trying first to recruit volunteers from communities you're familiar with
+            (i.e. asking your friend who loves working with kids to help out),
+            before branching out further.
+          </p>
+        </div>
+
+        <div class="module" id="training">
+          <h1>Volunteer Training</h1>
+          <p>
+            We require all brand-new volunteers (never volunteered before anywhere for ACEing Autism)
+            to attend an in-person training before the first session of the program.
+            ACEing Autism has great resources to provide this in-person training; for
+            our very first session back in May 2022, one of the National Directors
+            came out to Pasadena to help train our volunteers for an hour before
+            the clinic began. Now that our program is more established, we run
+            the training ourselves for a half hour before the first clinic. <br>
+            During the training, it is especially important for the volunteers to
+            be engaged so that they can apply what they learned. We like to create
+            a fun, interactive environment, where one volunteer demonstrates a drill to another
+            volunteer, who stands in for the participant. We have also written up
+            tips for volunteers to remember (see next section) and provide ongoing
+            support during the clinic.
+          </p>
+        </div>
+
+        <div class="module" id="tips-volunteers">
+          <h1>Tips for Volunteers</h1>
+          <p>
+            <img src="{{ url_for('static', filename='images/v4-2.jpeg') }}" style="max-width:100%;max-height:100%;"/>
+          </p>
+        </div>
+
+        <div class="module" id="manage-structure">
+          <h1>Management Structure</h1>
+          <p>
+            We believe in creating a collaborative environment, so all executive
+            members make decisions together at weekly meetings and work with
+            each other to complete different tasks. The Program Director is
+            usually responsible for establishing the agenda and leading
+            the weekly discussions. The Assistant Program Director focuses on
+            curriculum and quality assurance for the weekly clinics. The Logistics
+            Director is primarily responsible for taking care of communications
+            between the program and volunteers/parents. There is no strict
+            hierarchy or responsibilities, however; we all help out on court when
+            needed and work with each other in a team.
+          </p>
+        </div>
+
+        <div class="module" id="parent-interaction">
+          <h1>Interacting with Parents</h1>
+          <p>
+            While running your program, don't forget to talk to the parents and
+            interact with them regularly! As a Program Director, the ideal situation
+            is for the program to run smoothly enough so that the Court Leads and
+            other support staff will take care of the participants on the court.
+            Building relationships with the parents will establish an important
+            line of communication about their child's needs, whether it's seeking advice on
+            how to handle certain behaviors, or a conversation about whether the
+            current volunteer pairing is working out well. This is one of the final
+            steps in order to ensure a successful ACEing Autism program. <br>
+            We hope these guides were helpful to you! Don't forget that this
+            activity should be fun, and we wish you the same joy and fulfillment
+            we get from running ACEing Caltech.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
+    </footer>
+    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/resources.js') }}"></script>
+  </body>
+</html>

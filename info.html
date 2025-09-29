@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+
+<head>
+    <title>ACEing Caltech</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/about.css') }}" />
+</head>
+
+<body>
+    <div class="header">
+        <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver"
+                class="logo" /></a>
+        <h1> ACEing Caltech </h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/info">Info</a>
+            <a href="/resources">Resources</a>
+            <a href="/faq">FAQ</a>
+        </nav>
+    </div>
+    <article>
+        <h1 class="spef"><b>Program Information</b></h1>
+        <h2 style="margin-bottom: 25px;">Spring 2025 Clinic</h2>
+        <p>
+            Our Spring 2025 clinic will take place on <b> Sundays, 3pm - 4pm
+                </b> on April 27, May 4, May 11, May 18, and June 1 (skipping
+                May 25 for memorial day weekend) for a total of 5 sessions.
+        </p>
+        <!-- BEGIN ATH MAP DESCRIPTION -->
+        <p>
+            <b>
+                All of our spring clinics will take place at the Caltech Athenaeum on
+                <i> <a href="https://maps.app.goo.gl/WraCDp4aizvb4z978"> 551 S. Hill Ave</a></i>.
+                Please Park on Hill Avenue, and go up the stairs next to the tennis courts to find us.
+                Below, we have pinned the exact location of our check-in desk. We should
+                be easy to find on the days of the clinic!
+            </b>
+        </p>
+        <p>
+            We will be providing the following:
+        <ul>
+            <li> Racquets (but you can bring your own if you'd like) </li>
+            <li> Nets, balls, and other equipment </li>
+            <li> Name badges </li>
+            <li> (1st session) T-shirts for new participants/volunteers </li>
+            <li> Light snacks </li>
+        </ul>
+        </p>
+        <p>
+            <b> Please bring a filled water bottle! </b>
+        </p>
+        <center>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3302.353404769431!2d-118.1240515242798!3d34.137299573125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDA4JzE0LjMiTiAxMTjCsDA3JzE3LjMiVw!5e0!3m2!1sen!2sus!4v1698917170232!5m2!1sen!2sus"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </article>
+    <!-- END ATH MAP DESCRIPTION -->
+    <!-- BEGIN OLD CALTECH ATHLETICS COURTS DESCRIPTOIN -->
+    <!-- <p>
+          <b>
+          Our clinic will take place at the Caltech Tennis Courts on
+          <i> <a href ="https://goo.gl/maps/YNhoSp8HAEw8LCyK8"> 1216 E California Blvd</a></i>.
+          After turning in off California Blvd, please head to the end of the road, where
+          there is free parking available at the <a href ="https://goo.gl/maps/Qute7WWdVGMfeU9R7">
+          Caltech Children's Center</a> (you can type
+          this location into your GPS as well for navigational purposes).
+          Below, we have pinned the exact location of our check-in desk. We should
+          be easy to find on the days of the clinic!
+        </b>
+        </p>
+        <p>
+          We will be providing the following:
+          <ul>
+            <li> Racquets (but you can bring your own if you'd like) </li>
+            <li> Nets, balls, and other equipment </li>
+            <li> Name badges </li>
+            <li> (1st session) T-shirts for new participants/volunteers </li>
+            <li> Light snacks </li>
+          </ul>
+        </p>
+        <p>
+        <b> Please bring a filled water bottle! </b> We will have 1 small water/participant,
+        but due to COVID, will not have water coolers nearby for volunteers and parents.
+      </p>
+        <center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d825.6159241806998!2d-118.1264157303923!3d34.13447710838359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDA4JzA0LjEiTiAxMTjCsDA3JzMyLjgiVw!5e0!3m2!1sen!2sgr!4v1682364085053!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </center>
+      </article> -->
+    <!-- END OLD CALTECH ATHLETICS COURTS DESCRIPTION -->
+</body>
+<footer>
+    <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
+</footer>
+<script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+
+</html>

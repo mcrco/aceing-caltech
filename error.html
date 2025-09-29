@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+  <head>
+    <title>ACEing Caltech</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/error.css') }}" />
+  </head>
+  <body>
+    <div class = "header">
+    <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver" class="logo"/></a>
+    <h1> ACEing Caltech </h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/info">Info</a>
+      <a href="/resources">Resources</a>
+      <a href="/faq">FAQ</a>
+    </nav>
+</div>
+    <h2>{{ error }}</h2>
+    <p>Oops! The page you're looking for doesn't exist. <br>
+    <a href="/" style="color: var(--BLUE);">Homepage</a>
+    </div>
+
+    <footer>
+      <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
+    </footer>
+    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+  </body>
+</html>

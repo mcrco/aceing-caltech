@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+
+<head>
+    <title>ACEing Caltech: About</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/about.css') }}" />
+</head>
+
+<body>
+    <div class="header">
+        <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver"
+                class="logo" /></a>
+        <h1> ACEing Caltech </h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/info">Info</a>
+            <a href="/resources">Resources</a>
+            <a href="/faq">FAQ</a>
+        </nav>
+    </div>
+    <article>
+        <h1 class="spef"><b>About the Program</b></h1>
+        <h2 style="margin-bottom: 25px;">ACEing Autism - Pasadena @ The Athenaeum Club, Caltech</h2>
+        <p>
+            Our ACEing Autism - Pasadena branch was founded in Fall 2021, with our
+            inaugural clinic taking place in Spring 2022. We started off with less
+            than 10 students, and are now welcoming over 20 students for our
+            Spring 2024 program. This community-based program welcomes volunteers not
+            only from Caltech, but also from local high schools and the neighborhood.
+            No tennis experience is required as our main goal is for everyone to have
+            fun, while engaging in meaningful social interactions with our participants
+            who are diagnosed with Autism Spectrum Disorder.
+            What started as a way for Caltech students to engage with the larger
+            community has evolved our Sunday clinics in a microcosm of Pasadena itself.
+            We love how much the ACEing Pasadena family has grown in recent years
+            and hope we can continue to serve the community in the future.
+        </p>
+        <p>
+            <b>
+                We currently run a 6-week clinic in the Fall (October - early December)
+                and a 5-week clinic in the Spring (May - early June). Please check our
+                homepage for the most up-to-date information about our program!
+            </b>
+        </p>
+        <p>
+            If you're a new parent who is interested in getting updates via email,
+            please reach out to us: <a href="mailto: pasadena@aceingautism.org">pasadena@aceingautism.org</a>.
+            If you're interested in volunteering, please navigate
+            <a href="https://docs.google.com/document/d/1LAWPpYeChinaEY7RdqhhOZ77WuGL-tG1eZziCDCrtpw/edit?usp=sharing"
+                target="_blank" style="color: var(--BLUE);">here</a>
+            to learn how to sign up!
+        </p>
+        <hr style="border: 1px solid #E8E8E8;margin: 25px auto;" />
+
+        <h2 style="margin-bottom: 25px;">Meet the Executive Team</h2>
+        <div class="person">
+            <img class="headshot" src="{{ url_for('static', filename='images/headshots/yoyo-benchetrit.png') }}"
+                alt="Headshot" />
+            <div class="description">
+                <h3> <b> Program Director </b> - Yoyo Benchetrit </h3>
+                <p>
+                    Yoyo is a current Caltech undergraduate (Class of 2025) majoring in
+                    Biology. She is a member of the Caltech Women's Tennis team. On Yoyo's
+                    favorite thing about ACEing, she says: "I love seeing the kids grow
+                    and form strong and meaningful bonds with their volunteers over the
+                    weeks. It really reinforces the importance of community."
+                </p>
+            </div>
+        </div>
+
+        <div class="person">
+            <img class="headshot" src="{{ url_for('static', filename='images/headshots/simon-hu-24.jpg') }}"
+                alt="Headshot" />
+            <div class="description">
+                <h3> <b> Assistant Program Director </b> - Simon Hu</h3>
+                <p>
+                    Simon is a current Caltech undergraduate (Class of 2026) majoring in
+                    Computation and Neural Systems. He is a member of the Caltech men's varsity swim team,
+                    and likes recreational sports and musical concerts. On what he loves about ACEing,
+                    Simon says "I love how so many people show up to volunteer, which reminds me of
+                    how supportive the community is."
+                </p>
+            </div>
+        </div>
+
+        <div class="person">
+            <img class="headshot" src="{{ url_for('static', filename='images/headshots/marco-yang.jpg') }}"
+                alt="Headshot" />
+            <div class="description">
+                <h3> <b> Program Director </b> - Marco Yang </h3>
+                <p>
+                    Marco is a current Caltech undergraduate (Class of 2026) majoring in
+                    Computer Science. He is a member of the Caltech Men's Tennis team. On what
+                    he loves about ACEing, Marco says "I like seeing the kids having fun
+                    and enjoying the sport of tennis, all while building new
+                    community and friendships."
+                </p>
+            </div>
+        </div>
+
+        <hr style="border: 1px solid #E8E8E8;margin: 25px auto;" />
+
+        <!-- <h2 style="margin-bottom: 25px;">Meet the Support Staff</h2> -->
+
+        <hr style="border: 1px solid #E8E8E8;margin: 25px auto;" />
+        <h2 style="margin-bottom: 25px;">Past Executive Members</h2>
+        <div class="person">
+            <img class="headshot" src="{{ url_for('static', filename='images/headshots/jen-yu.png') }}"
+                alt="Headshot" />
+            <div class="description">
+                <h3> <b> Program Director & Founder (2021-2023) </b> - Jen Yu</h3>
+                <p>
+                    Jen is a recent Caltech alum (Class of 2022) who is currently attending
+                    medical school at the Icahn School of Medicine at Mt. Sinai in NYC.
+                    As an undergraduate, Jen majored in Computer Science and was a member
+                    of the Caltech Women's Tennis team. On Jen's favorite thing about ACEing,
+                    she says "I really love the community we've created here on campus and
+                    I look forward to seeing the kids have fun every week!"
+                </p>
+            </div>
+        </div>
+
+        <div class="person">
+            <img class="headshot" src="{{ url_for('static', filename='images/headshots/kyle-mccandless.png') }}"
+                alt="Headshot" />
+            <div class="description">
+                <h3> <b> Program Director (2023-2024) </b> - Kyle McCandless</h3>
+                <p>
+                    Kyle is a Caltech alum (Class of 2024) who majored in
+                    Computer Science and Business. He has been with ACEing Autism Pasadena in various roles since its
+                    beginning in 2021.
+                    As an undergraduate, he was a member of both the Caltech
+                    Men's Tennis and Cross Country teams. On Kyle's favorite thing about
+                    ACEing, he says: "I love the energy of the program. Every week, the
+                    kids cannot wait to get on court and their enthusiasm is really contagious."
+                </p>
+            </div>
+        </div>
+
+        <div class="person">
+            <img class="headshot" src="{{ url_for('static', filename='images/headshots/vanessa-mechem.png') }}"
+                alt="Headshot" />
+            <div class="description">
+                <h3> <b> Logistics Director (2021-22) </b> - Vanessa Mechem</h3>
+                <p>
+                    Vanessa is a Caltech alum (Class of 2022) and majored in Chemistry
+                    as an undergraduate. She is currently working in NYC as a medical
+                    scribe at Weill Cornell Medicine.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
+    </footer>
+    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/network.js') }}"></script>
+</body>
+
+</html>

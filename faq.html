@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+  <head>
+    <title>ACEing Caltech</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/faq.css') }}" />
+  </head>
+  <body>
+    <div class = "header">
+    <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver" class="logo"/></a>
+    <h1> ACEing Caltech </h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/info">Info</a>
+      <a href="/resources">Resources</a>
+      <a href="/faq">FAQ</a>
+    </nav>
+    </div>
+    <article>
+    <center>
+    <h1 class="page-title" style="padding: 20px; font-size: 25px;">Frequently Asked Questions</h1>
+    </center>
+    <h2>General</h2>
+    <button class="accordion">What is ACEing Autism?</button>
+    <div class="panel">
+      <p>
+        ACEing Autism is a national non-profit program that focuses on teaching children
+        diagnosed with Autism social and communication skills through the sport of
+        tennis. We are the Pasadena location and our clinics are held on the
+        Caltech campus. Our program's main objective is for everyone to have fun!
+        We hope that the participants can gain meaningful skills and that the
+        volunteers can have a fulfilling experience from working with their
+        participant.
+      </p>
+    </div>
+    <button class="accordion">Where can I find information about the program?</button>
+    <div class="panel">
+      <p>
+        Please visit our <a href="\info">Info</a> page for specific details about
+        our program.
+      </p>
+    </div>
+    <button class="accordion">Do I need tennis experience to participate?</button>
+    <div class="panel">
+      <p>
+        Neither volunteers nor participants need tennis experience. Because
+        our program focuses on staying active and having fun, we teach
+        introductory tennis movements to the participants. We have a quick
+        volunteer training session before the first clinic of each season
+        where we will give tips on teaching!
+      </p>
+    </div>
+    <button class="accordion">How often are the clinics?</button>
+    <div class="panel">
+      <p>
+        We currently run a 6-week clinic in the Fall (October-early December)
+        and a 5-week clinic in the Spring (May-early June). Please check our
+        <a href="\info">info page</a> for the most up-to-date information about our program!
+      </p>
+    </div>
+    <button class="accordion">Is there a clinic in the summer? Why aren't the clinics year-round?</button>
+    <div class="panel">
+      <p>
+        Because we rely largely on student volunteers and the support of
+        the Caltech tennis teams, we do not run clinics outside of our designated
+        times for Fall and Spring. Many students are off-campus in the summer, so
+        our volunteer pool is much smaller during that time. The tennis teams at
+        Caltech are also competing from January through May, making those months
+        too busy to run our clinics. We are hoping to expand our availability in
+        the future.
+      </p>
+    </div>
+    <br>
+
+    <h2 >For Parents</h2>
+    <button class="accordion">How do I sign my child up to participate?</button>
+    <div class="panel">
+      <p>
+        Follow the instructions <a href="https://aceingautism.org/programs/pasadena-ca/">here</a>
+        and we will reach out with more information. We are super excited to work with you!
+      </p>
+    </div>
+    <button class="accordion">When does registration usually open?</button>
+    <div class="panel">
+      <p>
+        We normally open registration for each program around 1-2 months before
+        the program start date. Please check back regularly <a href ="https://aceingcaltech.com/info"> here</a> to get the most up to date information. </b>
+      </p>
+    </div>
+    <button class="accordion">What should I expect from the clinic?</button>
+    <div class="panel">
+      <p>
+        Welcome! We ask that parents arrive 15 minutes early for the first clinic
+        so that we can introduce the participant to their paired volunteers and
+        so the participant can get used to the new environment. We try to pair
+        the same volunteers every week and assign 2 volunteers/child (subject to
+        variation based on support level). <br>
+        As we get to know your child through the clinics, we can switch up the
+        volunteer pairings and adjust the environment (i.e. too many people is
+        overwhelming, so we place the participant on a smaller court) based on
+        your child's needs. <br>
+          Before each clinic, please check-in at the desk and your volunteers will
+        find you when the clinic starts. We start with a warm-up, then transition
+        to different drills in hand-eye coordination and racquet techniques. At
+        the end of each session, we play a group game with all the participants
+        and volunteers, like Red Light, Green Light.
+      </p>
+    </div>
+    <button class="accordion">What can be done if we can't make it to a session?</button>
+    <div class="panel">
+      <p>
+        Please send us an email at <a href = "mailto: pasadena@aceingautism.org">pasadena@aceingautism.org</a>
+        as soon as you can! The executive team meets weekly to pair participants
+        to volunteers, and the sooner we know who is attending, the better we
+        can plan our clinic. Unfortunately, we do not have a make-up policy. 
+      </p>
+    </div>
+    <button class="accordion">Is this a drop-off program?</button>
+    <div class="panel">
+      <p>
+        We are <b>NOT</b> a drop-off program. Parents are expected to stay for
+        the duration of the clinic or have a designated guardian/caretaker
+        responsible for the participant on-site. There are bleachers available
+        for courtside seating.
+      </p>
+    </div>
+    <button class="accordion">What does the tuition cover?</button>
+    <div class="panel">
+      <p>
+        We don't directly handle payments nor receive money from ACEing Autism to
+        run our clinics. We are completely operated through the help of volunteers.
+        Tuition is minimal in order to ensure attendance and pay for supplies
+        such as racquets, balls, nets, etc. Additionally, we provide t-shirts for
+        the participants, snacks at each clinic, and a final celebration on the
+        last clinic day that includes medals for all participants and food for
+        everyone attending.
+      </p>
+    </div>
+    <button class="accordion">Are there scholarships available?</button>
+    <div class="panel">
+      <p>
+        Yes! ACEing Autism provides scholarships to anyone in need of financial support.
+         More information <a href="https://aceingautism.org/scholarships/#:~:text=Scholarships%20are%20available%20to%20anyone,are%20welcome%20to%20re%2Dapply.">here</a>.
+      </p>
+    </div>
+    <br>
+
+    <h2>For Volunteers</h2>
+    <button class="accordion">How do I sign up to volunteer?</button>
+    <div class="panel">
+      <p>
+        Follow the instructions
+        <a href="https://docs.google.com/document/d/1LAWPpYeChinaEY7RdqhhOZ77WuGL-tG1eZziCDCrtpw/edit?usp=sharing">here</a>
+        and we will reach out with more information. We are super excited to work with you!
+      </p>
+    </div>
+    <button class="accordion">Is there an age limit to volunteer?</button>
+    <div class="panel">
+      <p>
+        We currently require volunteers to be at least in high school to volunteer.
+        Additionally, volunteering requires some physical activity in order to
+        demonstrate the exercises and to keep up with your participant, many of whom
+        will be between the ages of 5-12.
+      </p>
+    </div>
+    <button class="accordion">I don't know much about Autism. Can I still volunteer?</button>
+    <div class="panel">
+      <p>
+        Of course you can! The vast majority of our volunteers did not have prior experience working
+        directly with children diagnosed Autism before our program. We only ask
+        that volunteers are enthusiastic and ready to be active + have fun. This
+        will go a long way in creating a positive volunteer experience.
+        We provide training for our volunteers with teaching tips and provide
+        active support for volunteers during our clinics.
+      </p>
+    </div>
+      <button class="accordion">What is the commitment like for a volunteer?</button>
+      <div class="panel">
+        <p>
+          We ask that volunteers are able to make at least 3 of the sessions in
+          any of our programs. This is largely because we like to pair participants
+          with the same volunteers every week to help build familiarity in what
+          can be an overwhelming environment. We also think volunteers get more
+          out of the experience if they are able to form a close relationship with
+          their paired participant! The commitment level is fairly low, as our
+          weekly clinics are only 1 hour long.
+        </p>
+      </div>
+      <button class="accordion">What should I do if I can't make it to a session I signed up for?</button>
+      <div class="panel">
+        <p>
+          Please send us an email at <a href = "mailto: pasadena@aceingautism.org">pasadena@aceingautism.org</a>
+          as soon as you can! We try to schedule so that participants can get
+          work with the same volunteers every week, so we appreciate letting us know
+          ahead of time if you can't make it.
+        </p>
+      </div>
+      <button class="accordion">What is a Court Lead? How can I become one?</button>
+      <div class="panel">
+        <p>
+          Court Leads are volunteers who have been designated to lead a court at
+          the clinic. They are responsible for going through the steps of the
+          curriculum and demonstrating new drills. Not every court needs to be
+          doing the same thing at the same time, and court leads can choose the
+          exercises depending on the skill level of their court. <br>
+          We normally select returning volunteers who have shown strong commitment
+          to the program and exceptional engagement with the participants as Court
+          Leads. If you're interested in becoming a Court Lead, please speak with
+          one of the Executive members in-person after a session, or reach out
+          via email at <a href = "mailto: pasadena@aceingautism.org">pasadena@aceingautism.org</a>.
+        </p>
+      </div>
+      <br>
+
+      <h3> Contact Us: <a href = "mailto: pasadena@aceingautism.org">pasadena@aceingautism.org</a> </h3>
+    </article>
+<script type="text/javascript" src="{{ url_for('static', filename='styles/js/faq.js') }}"></script>
+</body>
+<footer>
+  <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
+</footer>
+<script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+</html>

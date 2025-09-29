@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US" style="scroll-behavior: smooth;">
+  <head>
+    <title>ACEing Caltech</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
+  </head>
+  <body>
+    <div class = "header">
+    <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver" class="logo"/></a>
+    <h1> ACEing Caltech </h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/info">Info</a>
+      <a href="/resources">Resources</a>
+      <a href="/faq">FAQ</a>
+    </nav>
+</div>
+    <br> <br> <br>
+    <h1 class="page-title">ACEing Caltech </h1>
+    <h3 class="page-title">
+      Homepage for the Pasadena branch of <a href="https://aceingautism.org/" target="_blank">ACEing Autism</a>,
+      located on the Caltech campus. Whether you're a parent interested in signing
+      up your child for our program or someone looking to start their own branch, we have
+      information for you!
+    </h3>
+
+    <div class="body-container">
+      <div class="right">
+        <h1 style="color:#F25422">Recent Updates</h1>
+        <p><b>June 12th, 2024</b>: Our spring 2024 session is complete. Thanks to everyone who came, we had a blast! Keep an eye out for
+          information about the Fall 2024 Session coming out in September.
+        </p>
+        <p><b>Jan 31st, 2023</b>: ACEing Autism was featured on the Dr. Phil show.
+          Our program directors, Jen Yu and Kyle McCandless, were invited to help out
+          with the clinic and some of the students from our clinics at Caltech
+          participated as well! Watch the episode <a href="https://youtu.be/pKcEvnhpmls" target="_blank">here</a>.
+        </p>
+        <p><b>Aug 28th, 2022</b>: After a 3-year absence, ACEing Autism held their annual clinic at the
+          U.S. Open Tennis Championships. Program Director Jen Yu was invited to teach
+          at the clinic. Watch the FOX5 New York coverage <a href="https://www.youtube.com/watch?v=9NUIXgoE9dU&ab_channel=FOX5NewYork" target="_blank">here</a>.
+        </p>
+      </div>
+      <div class="left">
+        <a href="/info" style="text-decoration: none;"><div style="background-image:url_for('static', filename='images/tennis.jpeg');" class="block">
+          <h1>Program Information</h1>
+          <p>
+             Get the most up-to-date information on our current clinic, from dates to location,
+             and other important logistics.
+          </p>
+          <p class="preview"> Get the scoop > </p>
+        </div></a>
+        <br> <br>
+        <a href="/resources" style="text-decoration: none;"><div class="block">
+          <h1>Resources</h1>
+          <p>Interested in starting your own program? Looking for tips? Check out our Resources page for more information.</p>
+          <p class="preview"> Read the tips > </p>
+        </div></a>
+        <br> <br>
+        <a href="/faq" style="text-decoration: none;"><div class="block">
+          <h1>Frequently Asked Questions</h1>
+          <p>Have a more specific question? Refer here for our most frequent inquiries. </p>
+          <p class="preview"> Answers here > </p>
+        </div></a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
+    </footer>
+    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+  </body>
+</html>
