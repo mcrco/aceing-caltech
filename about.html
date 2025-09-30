@@ -5,24 +5,24 @@
     <title>ACEing Caltech: About</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/about.css') }}" />
+    <link rel="icon" type="image/png" href="images/ball.png" />
+    <link rel="apple-touch-icon" type="image/png" href="images/ball.png" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
 </head>
 
 <body>
     <div class="header">
-        <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver"
+        <a href="/"><img src="images/aceing-beaver.png" alt="ACEing Beaver"
                 class="logo" /></a>
         <h1> ACEing Caltech </h1>
         <nav>
             <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/info">Info</a>
-            <a href="/resources">Resources</a>
-            <a href="/faq">FAQ</a>
+            <a href="about.html">About</a>
+            <a href="info.html">Info</a>
+            <a href="resources.html">Resources</a>
+            <a href="faq.html">FAQ</a>
         </nav>
     </div>
     <article>
@@ -61,7 +61,7 @@
 
         <h2 style="margin-bottom: 25px;">Meet the Executive Team</h2>
         <div class="person">
-            <img class="headshot" src="{{ url_for('static', filename='images/headshots/yoyo-benchetrit.png') }}"
+            <img class="headshot" src="images/headshots/yoyo-benchetrit.png"
                 alt="Headshot" />
             <div class="description">
                 <h3> <b> Program Director </b> - Yoyo Benchetrit </h3>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="person">
-            <img class="headshot" src="{{ url_for('static', filename='images/headshots/simon-hu-24.jpg') }}"
+            <img class="headshot" src="images/headshots/simon-hu-24.jpg"
                 alt="Headshot" />
             <div class="description">
                 <h3> <b> Assistant Program Director </b> - Simon Hu</h3>
@@ -91,7 +91,7 @@
         </div>
 
         <div class="person">
-            <img class="headshot" src="{{ url_for('static', filename='images/headshots/marco-yang.jpg') }}"
+            <img class="headshot" src="images/headshots/marco-yang.jpg"
                 alt="Headshot" />
             <div class="description">
                 <h3> <b> Program Director </b> - Marco Yang </h3>
@@ -112,7 +112,7 @@
         <hr style="border: 1px solid #E8E8E8;margin: 25px auto;" />
         <h2 style="margin-bottom: 25px;">Past Executive Members</h2>
         <div class="person">
-            <img class="headshot" src="{{ url_for('static', filename='images/headshots/jen-yu.png') }}"
+            <img class="headshot" src="images/headshots/jen-yu.png"
                 alt="Headshot" />
             <div class="description">
                 <h3> <b> Program Director & Founder (2021-2023) </b> - Jen Yu</h3>
@@ -128,7 +128,7 @@
         </div>
 
         <div class="person">
-            <img class="headshot" src="{{ url_for('static', filename='images/headshots/kyle-mccandless.png') }}"
+            <img class="headshot" src="images/headshots/kyle-mccandless.png"
                 alt="Headshot" />
             <div class="description">
                 <h3> <b> Program Director (2023-2024) </b> - Kyle McCandless</h3>
@@ -145,7 +145,7 @@
         </div>
 
         <div class="person">
-            <img class="headshot" src="{{ url_for('static', filename='images/headshots/vanessa-mechem.png') }}"
+            <img class="headshot" src="images/headshots/vanessa-mechem.png"
                 alt="Headshot" />
             <div class="description">
                 <h3> <b> Logistics Director (2021-22) </b> - Vanessa Mechem</h3>
@@ -161,8 +161,7 @@
     <footer>
         <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
     </footer>
-    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/network.js') }}"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
 </body>
 
 </html>

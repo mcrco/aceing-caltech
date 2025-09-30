@@ -4,23 +4,23 @@
     <title>ACEing Caltech</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/faq.css') }}" />
+    <link rel="icon" type="image/png" href="images/ball.png" />
+    <link rel="apple-touch-icon" type="image/png" href="images/ball.png" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/faq.css" />
   </head>
   <body>
     <div class = "header">
-    <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver" class="logo"/></a>
+    <a href="/"><img src="images/aceing-beaver.png" alt="ACEing Beaver" class="logo"/></a>
     <h1> ACEing Caltech </h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/info">Info</a>
-      <a href="/resources">Resources</a>
-      <a href="/faq">FAQ</a>
-    </nav>
+        <nav>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="info.html">Info</a>
+        <a href="resources.html">Resources</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
     </div>
     <article>
     <center>
@@ -42,7 +42,7 @@
     <button class="accordion">Where can I find information about the program?</button>
     <div class="panel">
       <p>
-        Please visit our <a href="\info">Info</a> page for specific details about
+        Please visit our <a href="info.html">Info</a> page for specific details about
         our program.
       </p>
     </div>
@@ -61,7 +61,7 @@
       <p>
         We currently run a 6-week clinic in the Fall (October-early December)
         and a 5-week clinic in the Spring (May-early June). Please check our
-        <a href="\info">info page</a> for the most up-to-date information about our program!
+        <a href="info.html">info page</a> for the most up-to-date information about our program!
       </p>
     </div>
     <button class="accordion">Is there a clinic in the summer? Why aren't the clinics year-round?</button>
@@ -220,10 +220,10 @@
 
       <h3> Contact Us: <a href = "mailto: pasadena@aceingautism.org">pasadena@aceingautism.org</a> </h3>
     </article>
-<script type="text/javascript" src="{{ url_for('static', filename='styles/js/faq.js') }}"></script>
+<script type="text/javascript" src="js/faq.js"></script>
 </body>
 <footer>
   <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
 </footer>
-<script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+<script type="text/javascript" src="js/footer.js"></script>
 </html>

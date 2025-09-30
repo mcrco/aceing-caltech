@@ -5,33 +5,32 @@
     <title>ACEing Caltech</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/about.css') }}" />
+    <link rel="icon" type="image/png" href="images/ball.png" />
+    <link rel="apple-touch-icon" type="image/png" href="images/ball.png" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
 </head>
 
 <body>
     <div class="header">
-        <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver"
+        <a href="/"><img src="images/aceing-beaver.png" alt="ACEing Beaver"
                 class="logo" /></a>
         <h1> ACEing Caltech </h1>
         <nav>
             <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/info">Info</a>
-            <a href="/resources">Resources</a>
-            <a href="/faq">FAQ</a>
+            <a href="about.html">About</a>
+            <a href="info.html">Info</a>
+            <a href="resources.html">Resources</a>
+            <a href="faq.html">FAQ</a>
         </nav>
     </div>
     <article>
         <h1 class="spef"><b>Program Information</b></h1>
         <h2 style="margin-bottom: 25px;">Spring 2025 Clinic</h2>
         <p>
-            Our Spring 2025 clinic will take place on <b> Sundays, 3pm - 4pm
-                </b> on April 27, May 4, May 11, May 18, and June 1 (skipping
-                May 25 for memorial day weekend) for a total of 5 sessions.
+            Our Fall 2025 clinic will take place on <b> Sundays, 3pm - 4pm
+                </b> on 10/12, 10/19, 10/26, 11/2, 11/9, and 11/16 for a total of 6 sessions.
         </p>
         <!-- BEGIN ATH MAP DESCRIPTION -->
         <p>
@@ -100,6 +99,6 @@
 <footer>
     <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
 </footer>
-<script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+<script type="text/javascript" src="js/footer.js"></script>
 
 </html>

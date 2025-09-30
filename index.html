@@ -4,22 +4,22 @@
     <title>ACEing Caltech</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="apple-touch-icon" type="image/png" href="{{ url_for('static', filename='images/ball.png') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/global.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/css/index.css') }}" />
+    <link rel="icon" type="image/png" href="images/ball.png" />
+    <link rel="apple-touch-icon" type="image/png" href="images/ball.png" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
   <body>
     <div class = "header">
-    <a href="/"><img src="{{ url_for('static', filename='images/aceing-beaver.png') }}" alt="ACEing Beaver" class="logo"/></a>
+    <a href="/"><img src="images/aceing-beaver.png" alt="ACEing Beaver" class="logo"/></a>
     <h1> ACEing Caltech </h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/info">Info</a>
-      <a href="/resources">Resources</a>
-      <a href="/faq">FAQ</a>
-    </nav>
+          <nav>
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="info.html">Info</a>
+        <a href="resources.html">Resources</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
 </div>
     <br> <br> <br>
     <h1 class="page-title">ACEing Caltech </h1>
@@ -47,7 +47,7 @@
         </p>
       </div>
       <div class="left">
-        <a href="/info" style="text-decoration: none;"><div style="background-image:url_for('static', filename='images/tennis.jpeg');" class="block">
+        <a href="info.html" style="text-decoration: none;"><div class="block">
           <h1>Program Information</h1>
           <p>
              Get the most up-to-date information on our current clinic, from dates to location,
@@ -56,13 +56,13 @@
           <p class="preview"> Get the scoop > </p>
         </div></a>
         <br> <br>
-        <a href="/resources" style="text-decoration: none;"><div class="block">
+        <a href="resources.html" style="text-decoration: none;"><div class="block">
           <h1>Resources</h1>
           <p>Interested in starting your own program? Looking for tips? Check out our Resources page for more information.</p>
           <p class="preview"> Read the tips > </p>
         </div></a>
         <br> <br>
-        <a href="/faq" style="text-decoration: none;"><div class="block">
+        <a href="faq.html" style="text-decoration: none;"><div class="block">
           <h1>Frequently Asked Questions</h1>
           <p>Have a more specific question? Refer here for our most frequent inquiries. </p>
           <p class="preview"> Answers here > </p>
@@ -73,6 +73,6 @@
     <footer>
       <p>Made by Jen Yu, &#169;<span id="footer-current-year"></span>.</p>
     </footer>
-    <script type="text/javascript" src="{{ url_for('static', filename='styles/js/footer.js') }}"></script>
+    <script type="text/javascript" src="js/footer.js"></script>
   </body>
 </html>
